@@ -56,7 +56,7 @@ class NoteOffsetState extends MusicBeatState
 		FlxG.cameras.add(camHUD);
 		FlxG.cameras.add(camOther);
 
-		FlxCamera._defaultCameras = [camGame];
+		FlxG.cameras.setDefaultDrawTarget(camGame, true);
 		FlxG.camera.scroll.set(120, 130);
 
 		persistentUpdate = true;

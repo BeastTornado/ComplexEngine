@@ -26,7 +26,7 @@ class AnimateSprite extends FlxAnimate
 			return;
 		}
 		anim._loadAtlas(atlasSetting(Path));
-		frames = AnimateFrames.fromTextureAtlas(Path);
+		frames = FlxAnimateFrames.fromTextureAtlas(Path);
 	}
 
 	override function draw()
@@ -35,9 +35,9 @@ class AnimateSprite extends FlxAnimate
 		super.draw();
 	}
 
-	override function atlasSetting(Path:String):AnimAtlas
+	override function atlasSetting(Path:String):String
 	{
-		var jsontxt:AnimAtlas = null;
+		var jsontxt:String = null;
 		if (haxe.io.Path.extension(Path) == "zip")
 		{
 			var thing = Zip.readZip(Assets.getBytes(Path));

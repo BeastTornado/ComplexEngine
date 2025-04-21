@@ -64,7 +64,8 @@ class FlxTransitionableState extends FlxState
 		transitionIn();
 	}
 
-	override public function switchTo(nextState:FlxState):Bool
+	// depricated
+	public function switchTo(nextState:FlxState):Bool
 	{
    // trace(!hasTransOut, transOutFinished);
 		if (!hasTransOut)
@@ -75,6 +76,7 @@ class FlxTransitionableState extends FlxState
 
 		return transOutFinished;
 	}
+	
 
 	function transitionToState(nextState:FlxState):Void
 	{

@@ -1,7 +1,6 @@
 package funkin.objects;
 
 import openfl.errors.Error;
-import flxanimate.AnimateFrames;
 import flxanimate.animate.FlxSymbol;
 import flxanimate.animate.FlxAnim;
 import openfl.display.BitmapData;
@@ -13,7 +12,6 @@ import flxanimate.zip.Zip;
 import flxanimate.data.AnimationData.AnimAtlas;
 import flxanimate.frames.FlxAnimateFrames;
 import openfl.utils.Assets;
-import flxanimate.FlxAnimate;
 
 // flxanim does not account for no atlas data so a path currently is required.
 class AnimateCharacter extends flxanimate.AnimateSprite implements Icharacter

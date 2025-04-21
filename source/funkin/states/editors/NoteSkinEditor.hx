@@ -141,7 +141,7 @@ class NoteSkinEditor extends MusicBeatState
 
 		FlxG.cameras.reset(camEditor);
 		FlxG.cameras.add(hud);
-		FlxCamera.defaultCameras = [camEditor];
+		FlxG.cameras.setDefaultDrawTarget(camEditor, true);
 
 		camFollow = new FlxObject(0, 0, 2, 2);
 		camFollow.screenCenter();
