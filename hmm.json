@@ -25,7 +25,7 @@
     {
       "name": "flixel-ui",
       "type": "haxelib",
-      "version": "2.6.1"
+      "version": null
     },
     {
       "name": "flxanimate",
