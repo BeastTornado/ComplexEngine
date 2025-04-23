@@ -1498,6 +1498,13 @@ class PlayState extends MusicBeatState
 		insert(members.indexOf(dadGroup), obj);
 	}
 
+	//made because shit broken
+	public function fuckingHideEveryone(){
+		boyfriendGroup.visible = false;
+		dadGroup.visible = false;
+		gfGroup.visible = false;
+	}
+
 	public function clearNotesBefore(time:Float)
 	{
 		var i:Int = unspawnNotes.length - 1;
