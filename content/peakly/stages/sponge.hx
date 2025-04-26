@@ -51,6 +51,7 @@ function onCreatePost(){
     FlxG.camera.follow(game.camFollowPos, sponge, 1);
 
     game.fuckingHideEveryone();
+    game.setGameOverVideo('sponge');
 }
 
 function onUpdate(elapsed){
