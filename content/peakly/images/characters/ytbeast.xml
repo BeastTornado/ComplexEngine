@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="ytbeast.png">
+<SubTexture name="ytbeast idle0000" x="0" y="0" width="1000" height="750" frameX="0" frameY="0" frameWidth="1000" frameHeight="750" />
+<SubTexture name="ytbeast idle0001" x="1000" y="0" width="1000" height="750" frameX="0" frameY="0" frameWidth="1000" frameHeight="750" />
+<SubTexture name="ytbeast idle0002" x="0" y="750" width="1000" height="750" frameX="0" frameY="0" frameWidth="1000" frameHeight="750" />
+<SubTexture name="ytbeast left0000" x="1000" y="750" width="1000" height="750" frameX="0" frameY="0" frameWidth="1000" frameHeight="750" />
+<SubTexture name="ytbeast left0001" x="2000" y="0" width="1000" height="750" frameX="0" frameY="0" frameWidth="1000" frameHeight="750" />
+<SubTexture name="ytbeast right0000" x="2000" y="750" width="1000" height="750" frameX="0" frameY="0" frameWidth="1000" frameHeight="750" />
+<SubTexture name="ytbeast right0001" x="0" y="1500" width="1000" height="750" frameX="0" frameY="0" frameWidth="1000" frameHeight="750" />
+<SubTexture name="ytbeast up0000" x="1000" y="1500" width="1000" height="750" frameX="0" frameY="0" frameWidth="1000" frameHeight="750" />
+<SubTexture name="ytbeast up0001" x="2000" y="1500" width="1000" height="750" frameX="0" frameY="0" frameWidth="1000" frameHeight="750" />
+<SubTexture name="ytbeast down0000" x="0" y="2250" width="1000" height="750" frameX="0" frameY="0" frameWidth="1000" frameHeight="750" />
+<SubTexture name="ytbeast down0001" x="1000" y="2250" width="1000" height="750" frameX="0" frameY="0" frameWidth="1000" frameHeight="750" />
+<SubTexture name="ytbeast freaky0000" x="2000" y="2250" width="1000" height="750" frameX="0" frameY="0" frameWidth="1000" frameHeight="750" />
+<SubTexture name="ytbeast freaky0001" x="3000" y="0" width="1000" height="750" frameX="0" frameY="0" frameWidth="1000" frameHeight="750" />
+<SubTexture name="ytbeast freaky0002" x="3000" y="750" width="1000" height="750" frameX="0" frameY="0" frameWidth="1000" frameHeight="750" />
+<SubTexture name="ytbeast freaky0003" x="3000" y="1500" width="1000" height="750" frameX="0" frameY="0" frameWidth="1000" frameHeight="750" />
+<SubTexture name="ytbeast freaky0004" x="3000" y="2250" width="1000" height="750" frameX="0" frameY="0" frameWidth="1000" frameHeight="750" />
+</TextureAtlas>

@@ -1,0 +1,25 @@
+{
+	"songs": [
+		["REINCARNATE", "brine", [165, 0, 77]],
+		["SUSPENDED", "bob", [165, 0, 77]],
+		["GENTLE-GIANT", "hachiware", [165, 0, 77]],
+		["ONE-THREE-SEVEN", "thisguy137", [165, 0, 77]],
+		["JEFFERY-EPSTEIN", "scientist", [165, 0, 77]],
+		["DEADWEIGHT", "ball", [165, 0, 77]]
+	],
+
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "stage",
+
+	"storyName": "",
+	"weekBefore": "tutorial",
+	"weekName": "PEAK1",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

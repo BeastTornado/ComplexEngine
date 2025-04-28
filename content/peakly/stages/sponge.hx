@@ -33,6 +33,8 @@ function onLoad(){
     black.scale.set(0.8, 0.8);
     add(black);
 
+    game.skipCountdown = true;
+
     //i poop
 }
 
@@ -47,8 +49,6 @@ function onCreatePost(){
     game.playHUD.healthBar.visible = false;
     game.playHUD.iconP1.visible = false;
     game.playHUD.iconP2.visible = false;
-
-    FlxG.camera.follow(game.camFollowPos, sponge, 1);
 
     game.fuckingHideEveryone();
     game.setGameOverVideo('sponge');
@@ -71,6 +71,7 @@ function onBeatHit(){
         });
         float = 1;
     }
+    game.snapCamFollowToPos(sponge.getMidpoint().x, sponge.getMidpoint().y);
 }
 
 function onEvent(event, value1, value2){
